@@ -1,0 +1,10 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "After The Cookie Crumbles"
+
+enableEmoji = true
+
+[params]
+    author = "Robin Giese"
+    highlight = false

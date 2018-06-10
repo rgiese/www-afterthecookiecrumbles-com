@@ -1,0 +1,50 @@
+{
+  "name": "www-afterthecookiecrumbles-com",
+  "version": "1.0.0",
+  "description": "After The Cookie Crumbles",
+  "repository": "rgiese/www-afterthecookiecrumbles-com",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build-prod",
+    "build-preview": "gulp build-prod-preview",
+    "start": "gulp server",
+    "start-preview": "gulp server-preview",
+    "lint": "eslint src"
+  },
+  "author": "robin@grumpycorp.com",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.24.4",
+    "css-loader": "^0.28.11",
+    "del": "^3.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^1.1.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-hash": "^4.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^5.0.0",
+    "hugo-bin": "^0.28.0",
+    "imports-loader": "^0.8.0",
+    "url-loader": "^1.0.1",
+    "webpack": "4.6.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "resolutions": {
+    "natives": "1.1.3"
+  }
+}
